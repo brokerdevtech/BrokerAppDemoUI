@@ -99,10 +99,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
     paddingVertical: 10
   },
-  headerText: {
-    fontSize: 20,
-    fontWeight: '700',
-  },
   ProfileSectionWrapper: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -149,16 +145,6 @@ const styles = StyleSheet.create({
     padding: 4,
     backgroundColor: "linear-gradient(0deg, #1D7BBF, #1D7BBF),linear-gradient(0deg, rgba(29, 123, 191, 0.1), rgba(29, 123, 191, 0.1))"
   },
-  ButtonItemWrapper: {
-    borderRadius: 5,
-    borderWidth: 2,
-    borderColor: colors.gray1,
-    padding: 4,
-  },
-  buttonIcon: {
-    width: 25,
-    height: 25,
-  },
   mesagesTitle: {
     fontWeight: '400',
     fontSize: 10,
@@ -196,52 +182,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     width: "70%",
     textAlign: "center"
-  },
-  moreInfoWrapper: {
-    marginLeft: 15,
-  },
-  introText: {
-    fontSize: 16,
-  },
-  urlText: {
-    color: colors.blue,
-  },
-  storiesImage: {
-    borderRadius: 70,
-    width: 70,
-    height: 70,
-    borderColor: colors.gray1,
-    borderWidth: 3,
-    marginRight: 10,
-  },
-  storiesWrapper: {
-    padding: 15,
-    borderBottomWidth: 2,
-    borderBottomColor: colors.gray1,
-  },
-  storyProfName: {
-    textAlign: 'center',
-  },
-  viewIconsWrapper: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
-  imagesWrapper: {
-    flexDirection: 'row',
-  },
-  galleryIMage: {
-    flex: 1,
-    height: 200,
-    margin: 1,
-  },
-  footer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
-  footerIcon: {
-    width: 60,
-    height: 60,
-  },
+  }
 });
 
 export default ProfileScreen;
