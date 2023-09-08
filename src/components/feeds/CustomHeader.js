@@ -27,7 +27,7 @@ const CustomHeader = ({  showCitySelection }) => {
           />
           <Text style={styles.cityText}>Select City</Text>
           <Image
-            source={require('../../assets/images/City_Arrow.png')}
+            source={require('../../assets/images/Down_Arrow.png')}
             style={styles.city_arrow_icon}
           />
           </>
